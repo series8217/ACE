@@ -7,7 +7,7 @@ using ACE.DatLoader.Entity;
 using ACE.Entity.Enum;
 using ACE.Entity.Enum.Properties;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 
 namespace ACE.Server.Entity

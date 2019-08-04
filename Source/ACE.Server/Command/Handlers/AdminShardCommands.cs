@@ -4,8 +4,8 @@ using log4net;
 
 using ACE.Entity.Enum;
 using ACE.Server.Managers;
-using ACE.Server.Network;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network;
+using ACE.Network.GameMessages.Messages;
 
 namespace ACE.Server.Command.Handlers
 {

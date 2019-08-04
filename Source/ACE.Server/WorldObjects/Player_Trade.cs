@@ -8,8 +8,8 @@ using ACE.Entity;
 using ACE.Entity.Enum;
 using ACE.Server.Managers;
 using ACE.Server.Entity.Actions;
-using ACE.Server.Network;
-using ACE.Server.Network.GameEvent.Events;
+using ACE.Network;
+using ACE.Network.GameEvent.Events;
 
 namespace ACE.Server.WorldObjects
 {

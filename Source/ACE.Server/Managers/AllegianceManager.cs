@@ -5,8 +5,8 @@ using ACE.Entity;
 using ACE.Entity.Enum.Properties;
 using ACE.Server.Entity;
 using ACE.Server.Factories;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 
 namespace ACE.Server.Managers

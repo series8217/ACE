@@ -4,7 +4,7 @@ using ACE.Database.Models.Shard;
 using ACE.Database.Models.World;
 using ACE.Entity;
 using ACE.Entity.Enum;
-using ACE.Server.Network;
+using ACE.Network;
 
 namespace ACE.Server.WorldObjects
 {

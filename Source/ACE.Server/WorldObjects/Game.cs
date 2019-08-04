@@ -8,7 +8,7 @@ using ACE.Server.Entity.Chess;
 using ACE.Server.Entity.Actions;
 using ACE.Server.Factories;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameEvent.Events;
+using ACE.Network.GameEvent.Events;
 
 namespace ACE.Server.WorldObjects
 {

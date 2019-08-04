@@ -14,7 +14,7 @@ using ACE.Entity.Enum.Properties;
 using ACE.Server.Entity;
 using ACE.Server.Factories;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameMessages.Messages;
 
 namespace ACE.Server.WorldObjects
 {

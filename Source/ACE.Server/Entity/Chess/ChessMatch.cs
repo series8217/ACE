@@ -7,9 +7,9 @@ using ACE.Entity.Enum;
 using ACE.Entity.Enum.Properties;
 using ACE.Server.Factories;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameMessages.Messages;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.Structure;
+using ACE.Network.GameMessages.Messages;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.Structure;
 using ACE.Server.Physics.Animation;
 using ACE.Server.WorldObjects;
 

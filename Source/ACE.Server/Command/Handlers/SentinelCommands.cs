@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 using ACE.Entity.Enum;
 using ACE.Entity.Enum.Properties;
-using ACE.Server.Network;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 
 namespace ACE.Server.Command.Handlers

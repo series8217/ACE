@@ -8,9 +8,9 @@ using ACE.Database.Models.Shard;
 using ACE.Entity;
 using ACE.Entity.Enum;
 using ACE.Server.Managers;
-using ACE.Server.Network;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.Structure;
+using ACE.Network;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.Structure;
 
 namespace ACE.Server.WorldObjects
 {

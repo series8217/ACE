@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 using ACE.Entity.Enum;
 using ACE.Server.Entity;
-using ACE.Server.Network.GameEvent.Events;
+using ACE.Network.GameEvent.Events;
 using ACE.Server.WorldObjects;
 
 using log4net;

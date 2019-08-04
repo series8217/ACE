@@ -9,8 +9,8 @@ using ACE.DatLoader.FileTypes;
 using ACE.Entity.Enum;
 using ACE.Server.Entity.Actions;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameMessages.Messages;
-using ACE.Server.Network.Structure;
+using ACE.Network.GameMessages.Messages;
+using ACE.Network.Structure;
 
 namespace ACE.Server.WorldObjects
 {

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using log4net;
 using ACE.Database.Models.Shard;
-using ACE.Server.Network.GameEvent.Events;
+using ACE.Network.GameEvent.Events;
 using ACE.Server.WorldObjects;
 using System.IO;
-using ACE.Server.Network.Structure;
+using ACE.Network.Structure;
 using ACE.DatLoader;
 using ACE.DatLoader.Entity;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameMessages.Messages;
 using ACE.Entity.Enum;
 
 namespace ACE.Server.Managers

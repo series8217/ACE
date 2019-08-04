@@ -1,4 +1,4 @@
-﻿using ACE.Server.Network;
+using ACE.Network;
 
 namespace ACE.Server.Command
 {

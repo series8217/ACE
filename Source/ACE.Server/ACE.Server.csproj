@@ -1,44 +1,42 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <Platforms>x64</Platforms>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\dev\ACE\Source\Backup1\</UpgradeBackupLocation>
+    <OldToolsVersion>15.0</OldToolsVersion>
   </PropertyGroup>
-
   <PropertyGroup>
     <ServerGarbageCollection>true</ServerGarbageCollection>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
-
   <ItemGroup>
     <None Remove="Config.json" />
     <None Remove="starterGear.json" />
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="starterGear.json" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\ACE.Adapter\ACE.Adapter.csproj" />
     <ProjectReference Include="..\ACE.Common\ACE.Common.csproj" />
     <ProjectReference Include="..\ACE.Database\ACE.Database.csproj" />
     <ProjectReference Include="..\ACE.DatLoader\ACE.DatLoader.csproj" />
     <ProjectReference Include="..\ACE.Entity\ACE.Entity.csproj" />
+    <ProjectReference Include="..\ACE.Network\ACE.Network.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Reference Include="Lifestoned.DataModel">
       <HintPath>..\lib\Lifestoned.DataModel.dll</HintPath>
     </Reference>
   </ItemGroup>
-
   <ItemGroup>
     <None Update="log4net.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -47,10 +45,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="if not exist &quot;$(ProjectDir)Config.js&quot; if exist &quot;$(ProjectDir)Config.json&quot; move &quot;$(ProjectDir)Config.json&quot; &quot;$(ProjectDir)Config.js&quot;&#xD;&#xA;copy &quot;$(ProjectDir)Config.js&quot; &quot;$(TargetDir)Config.js&quot;" Condition="'$(OS)' == 'Windows_NT'" />
     <Exec Command="if [ ! -f &quot;$(ProjectDir)Config.js&quot; ] &amp;&amp; [ -f &quot;$(ProjectDir)Config.json&quot; ] ; then mv &quot;$(ProjectDir)Config.json&quot; &quot;$(ProjectDir)Config.js&quot; ; fi&#xA;cp &quot;$(ProjectDir)Config.js&quot; &quot;$(TargetDir)Config.js&quot;" Condition="'$(OS)' != 'Windows_NT'" />
   </Target>
-
 </Project>

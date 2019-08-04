@@ -5,9 +5,9 @@ using ACE.Database.Models.Shard;
 using ACE.Entity;
 using ACE.Entity.Enum;
 using ACE.Server.Entity;
-using ACE.Server.Network.Structure;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.Structure;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 
 namespace ACE.Server.Managers

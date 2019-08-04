@@ -8,8 +8,8 @@ using ACE.Entity.Enum;
 using ACE.Server.Entity;
 using ACE.Server.Entity.Actions;
 using ACE.Server.Managers;
-using ACE.Server.Network;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 
 namespace ACE.Server.Command.Handlers

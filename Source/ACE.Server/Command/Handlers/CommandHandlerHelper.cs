@@ -3,7 +3,7 @@ using log4net;
 
 using ACE.Entity;
 using ACE.Entity.Enum;
-using ACE.Server.Network;
+using ACE.Network;
 using ACE.Server.WorldObjects;
 
 namespace ACE.Server.Command.Handlers

@@ -8,7 +8,7 @@ using ACE.Server.Entity;
 using ACE.Server.Entity.Actions;
 using ACE.Server.Factories;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.Physics;
 using ACE.Server.Physics.Animation;
 

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using ACE.Entity.Enum;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameMessages.Messages;
 
 namespace ACE.Server.WorldObjects
 {

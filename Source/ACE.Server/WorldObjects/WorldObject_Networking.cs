@@ -13,11 +13,11 @@ using ACE.Entity.Enum;
 using ACE.Entity.Enum.Properties;
 using ACE.Server.Entity;
 using ACE.Server.Entity.Actions;
-using ACE.Server.Network;
-using ACE.Server.Network.GameMessages;
-using ACE.Server.Network.GameMessages.Messages;
-using ACE.Server.Network.Structure;
-using ACE.Server.Network.Sequence;
+using ACE.Network;
+using ACE.Network.GameMessages;
+using ACE.Network.GameMessages.Messages;
+using ACE.Network.Structure;
+using ACE.Network.Sequence;
 using ACE.Server.Physics;
 
 namespace ACE.Server.WorldObjects

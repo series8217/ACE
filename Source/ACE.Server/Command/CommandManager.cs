@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 
 using ACE.Entity.Enum;
-using ACE.Server.Network;
+using ACE.Network;
 
 using log4net;
 

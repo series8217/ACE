@@ -2,7 +2,7 @@ using System;
 using ACE.Entity.Enum;
 using ACE.Server.Entity;
 using ACE.Server.Entity.Actions;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.Physics.Animation;
 
 namespace ACE.Server.WorldObjects

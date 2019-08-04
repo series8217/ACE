@@ -4,7 +4,7 @@ using ACE.Database.Models.World;
 using ACE.Entity;
 using ACE.Entity.Enum;
 using ACE.Server.Entity;
-using ACE.Server.Network.GameEvent.Events;
+using ACE.Network.GameEvent.Events;
 
 namespace ACE.Server.WorldObjects
 {

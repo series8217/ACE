@@ -15,10 +15,10 @@ using ACE.Entity.Enum.Properties;
 using ACE.Server.Entity;
 using ACE.Server.Entity.Actions;
 using ACE.Server.Managers;
-using ACE.Server.Network;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.GameMessages.Messages;
-using ACE.Server.Network.Structure;
+using ACE.Network;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.GameMessages.Messages;
+using ACE.Network.Structure;
 using ACE.Server.Physics.Animation;
 using ACE.Server.Physics.Common;
 

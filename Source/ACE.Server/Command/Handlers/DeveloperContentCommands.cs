@@ -10,7 +10,7 @@ using ACE.Database.Models.World;
 using ACE.Database.SQLFormatters.World;
 using ACE.Entity.Enum;
 using ACE.Server.Managers;
-using ACE.Server.Network;
+using ACE.Network;
 
 namespace ACE.Server.Command.Handlers.Processors
 {

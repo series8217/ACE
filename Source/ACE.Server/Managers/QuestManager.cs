@@ -7,8 +7,8 @@ using ACE.Common.Extensions;
 using ACE.Database;
 using ACE.Database.Models.Shard;
 using ACE.Entity.Enum;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 using ACE.Server.Entity;
 

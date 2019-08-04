@@ -5,8 +5,8 @@ using System.Linq;
 using ACE.Entity;
 using ACE.Entity.Enum;
 using ACE.Server.Managers;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.GameMessages.Messages;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.GameMessages.Messages;
 using ACE.Server.WorldObjects;
 
 using log4net;

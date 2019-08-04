@@ -3,7 +3,7 @@ using System.Net;
 using ACE.Database;
 using ACE.Database.Models.Auth;
 using ACE.Entity.Enum;
-using ACE.Server.Network;
+using ACE.Network;
 
 namespace ACE.Server.Command.Handlers
 {

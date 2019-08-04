@@ -1,6 +1,6 @@
 using ACE.Entity;
 using ACE.Entity.Enum;
-using ACE.Server.Network.Structure;
+using ACE.Network.Structure;
 using ACE.Server.WorldObjects;
 using log4net;
 

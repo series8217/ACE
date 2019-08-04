@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using ACE.DatLoader;
 using ACE.DatLoader.FileTypes;
 using ACE.Entity.Enum;
-using ACE.Server.Network;
+using ACE.Network;
 
 namespace ACE.Server.Command.Handlers
 {

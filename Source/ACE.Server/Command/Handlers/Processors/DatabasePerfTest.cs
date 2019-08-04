@@ -9,7 +9,7 @@ using ACE.Database;
 using ACE.Database.Models.Shard;
 using ACE.Entity.Enum;
 using ACE.Server.Factories;
-using ACE.Server.Network;
+using ACE.Network;
 
 namespace ACE.Server.Command.Handlers.Processors
 {

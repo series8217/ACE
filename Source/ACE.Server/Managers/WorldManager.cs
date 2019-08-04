@@ -16,10 +16,10 @@ using ACE.Entity.Enum;
 using ACE.Server.Entity;
 using ACE.Server.Entity.Actions;
 using ACE.Server.WorldObjects;
-using ACE.Server.Network;
-using ACE.Server.Network.GameEvent.Events;
-using ACE.Server.Network.GameMessages.Messages;
-using ACE.Server.Network.Managers;
+using ACE.Network;
+using ACE.Network.GameEvent.Events;
+using ACE.Network.GameMessages.Messages;
+using ACE.Network.Managers;
 using ACE.Server.Physics;
 using ACE.Server.Physics.Common;
 
